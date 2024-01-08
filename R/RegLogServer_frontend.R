@@ -48,7 +48,8 @@ RegLogServer_frontend <- function(
           description = p(
             RegLog_txt(lang = private$lang, custom_txts = private$custom_txts, x ="register_ui_2"),
             tags$ul(tags$li(RegLog_txt(lang = private$lang, custom_txts = private$custom_txts, x ="register_ui_3")),
-                    tags$li(RegLog_txt(lang = private$lang, custom_txts = private$custom_txts, x ="register_ui_4")))),
+                    tags$li(RegLog_txt(lang = private$lang, custom_txts = private$custom_txts, x ="register_ui_4")),
+                    tags$li(RegLog_txt(lang = private$lang, custom_txts = private$custom_txts, x ="register_ui_5")))),
           id_input = textInput(
             session$ns("register_user_ID"), 
             label = RegLog_txt(lang = private$lang, custom_txts = private$custom_txts, x ="user_id")
@@ -56,14 +57,6 @@ RegLogServer_frontend <- function(
           mail_input = textInput(
             session$ns("register_email"), 
             label = RegLog_txt(lang = private$lang, custom_txts = private$custom_txts, x ="email")
-          ),
-          pass1_input = passwordInput(
-            session$ns("register_pass1"), 
-            label = RegLog_txt(lang = private$lang, custom_txts = private$custom_txts, x ="password")
-          ),
-          pass2_input = passwordInput(
-            session$ns("register_pass2"), 
-            label = RegLog_txt(lang = private$lang, custom_txts = private$custom_txts, x ="password_rep")
           ),
           confirm_button = actionButton(
             session$ns("register_bttn"), 

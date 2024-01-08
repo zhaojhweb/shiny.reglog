@@ -122,7 +122,7 @@ RegLogServer_listener <- function(
                     username = received_message$data$user_id,
                     email = received_message$data$user_mail,
                     app_name = private$app_name,
-                    app_address = private$app_address
+                    password = received_message$data$password
                   )
                   
                   self$mailConnector$listener(message_to_send)

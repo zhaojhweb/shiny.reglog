@@ -31,9 +31,10 @@ RegLog_txts$en = list(
   reset_bttn_2 = "Confirm code",
   ### register module specific labels ####
   register_ui_1 = "Registration form",
-  register_ui_2 = "In the form below you can register a new account. Choose a user ID, provide a valid e-mail adress and choose a password for your account.",
-  register_ui_3 = "User ID and password should consist of 8~30 characters. For user ID every alphanumeric characters are valid. Password should contain at least three out of four following types of characters: big letter, small letter, number, special character.",
-  register_ui_4 = "You should have access to the provided e-mail address. After registration you will receive a confirmation e-mail. Moreover, if you ever forget your password you can reset it with reset code send to provided e-mail.",
+  register_ui_2 = "To register, choose a user ID and provide a valid email address from an educational or research institution. ",
+  register_ui_3 = "A password will be automatically generated and sent to your email address",
+  register_ui_4 = "Please change the password afterwards using the reset password feature",
+  register_ui_5 = "If you do not have an email address from an education or research institution, then you can request access by emailing us (haopeng.wang@gmail.com)",
   register_bttn = "Register",
   ## modal texts ####
   ### login modals ####
@@ -93,7 +94,7 @@ RegLog_txts$en = list(
   resetPass_noInput_confirm_t = "Missing data",
   resetPass_noInput_confirm_b = "To reset password with received reset code, please provide your user ID, received code and new password.",
   resetPass_nonValidPass_t = "Non-valid password",
-  resetPass_nonValidPass_b = "Provided new password isn't valid. Password must consist of 8~30 characters. It should also contain at least three out of four following types of characters: big letter, small letter, number, special character.",
+  resetPass_nonValidPass_b = "Provided new password isn't valid. Password must consist of 8~30 characters.",
   resetPass_notIdenticalPass_t = "Passwords don't match.",
   resetPass_notIdenticalPass_b = "Provided passwords don't match. Repeated password must be exactly the same as the first one.",
   resetPass_badId_t = "User ID not found",

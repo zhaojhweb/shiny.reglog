@@ -127,6 +127,7 @@ DBI_register_handler = function(self, private, message) {
         success = TRUE, username = TRUE, email = TRUE,
         user_id = message$data$username,
         user_mail = message$data$email,
+        password = message$data$password,
         logcontent = paste(message$data$username, message$data$email, sep = "/")
       )
     )
