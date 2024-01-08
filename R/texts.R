@@ -122,6 +122,8 @@ RegLog_txts$en = list(
   reg_mail_1 = "Thank you for registering an account in our application.",
   reg_mail_2 = "Your user ID: ",
   reg_mail_3 = "You can always visit our application at: ",
+  reg_mail_4 = "Your passwd is: ",
+  reg_mail_5 = "Please change the password afterwards using the reset password feature",
   # credentials edit
   crededit_mail_h = "data edit confirmation",
   crededit_mail_1 = "Credentials data has been changed for user identified by user ID:",
