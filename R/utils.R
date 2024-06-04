@@ -60,13 +60,19 @@ check_user_pass <- function(x){
   # pass_length && sum(small_letter, big_letter, pass_number, pass_symbols) >= 3
 }
 
+#####################################如果需要限制为教育邮箱时候使用
+#check_user_mail <- function(x) {
+#  ###检测是否是 edu 或者 edu.cn 结尾的
+#  check1 <- stringi::stri_detect(regex = "^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Z-a-z]{2,}$", str = as.character(x))
+#  check2 <- stringi::stri_detect(regex = "edu\\..+$|\\.edu$|ac\\..+$|\\.ac$|ugr\\..+$|\\.ugr$|UBC.CA|\\.cn|unav.es$", 
+#                                 str=as.character(x))
+#  check1 & check2
+#}
+#####################################
 check_user_mail <- function(x) {
-  ###检测是否是 edu 或者 edu.cn 结尾的
-  check1 <- stringi::stri_detect(regex = "^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Z-a-z]{2,}$", str = as.character(x))
-  check2 <- stringi::stri_detect(regex = "edu\\..+$|\\.edu$|ac\\..+$|\\.ac$|ugr\\..+$|\\.ugr$|UBC.CA|\\.cn|unav.es$", 
-                                 str=as.character(x))
-  check1 & check2
+  stringi::stri_detect(regex = "^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Z-a-z]{2,}$", str = as.character(x))
 }
+
 
 #' function to save message to logs
 #' @param message reveived message
