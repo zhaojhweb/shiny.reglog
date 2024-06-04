@@ -34,7 +34,7 @@ RegLog_txts$en = list(
   register_ui_2 = "To register, choose a user ID and provide a valid email address from an educational or research institution. ",
   register_ui_3 = "A password will be automatically generated and sent to your email address",
   register_ui_4 = "Please change the password afterwards using the reset password feature",
-  register_ui_5 = "If you do not have an email address from an education or research institution, then you can request access by emailing us (haopeng.wang@gmail.com)",
+  register_ui_5 = "If you do not have an email address from an education or research institution, then you can request access by emailing us (zhaojh96@outlook.com)",
   register_bttn = "Register",
   ## modal texts ####
   ### login modals ####
