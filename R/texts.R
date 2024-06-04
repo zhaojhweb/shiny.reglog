@@ -36,6 +36,7 @@ RegLog_txts$en = list(
   register_ui_3 = "A password will be automatically generated and sent to your email address",
   register_ui_4 = "Please change the password afterwards using the reset password feature",
   #register_ui_5 = "If you do not have an email address from an education or research institution, then you can request access by emailing us (zhaojh96@outlook.com)",
+  register_ui_5 = "If you have any questions, you can send us an email(zhaojh96@outlook.com)",
   register_bttn = "Register",
   ## modal texts ####
   ### login modals ####
